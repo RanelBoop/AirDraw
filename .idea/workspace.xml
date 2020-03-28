@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5ff596d-2185-4b18-87db-866c025df085" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core Operations/ImageProccessing/CannyEdgeDetection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core Operations/ImageProccessing/Contouring/Contours.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core Operations/ImageProccessing/Contouring/contoureFeatures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core Operations/ImageProccessing/MorphologicalTransformations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core Operations/ImageProccessing/colorTracking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpongeImg/hand.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpongeImg/hand2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpongeImg/hand3.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core Operations/ImageProccessing/Contouring/contoureFeatures.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core Operations/ImageProccessing/Contouring/contoureFeatures.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

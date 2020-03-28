@@ -5,6 +5,9 @@ import numpy as np
 img0=cv2.imread('C:\\Users\\USER\\Desktop\\AirDraw\\SpongeImg\\hand3.jpeg',0)
 img=cv2.resize(img0,(400,400))
 thresh=cv2.Canny(img,150,500)
+kernel = np.ones((5,5),np.uint8)
+thresh = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)
+
 #contours,hierarchy=cv2.findContours(thresh,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
 contours,hierarchy=cv2.findContours(thresh,1,2)
 print(contours)
@@ -39,6 +42,7 @@ print(hull)
 x,y,w,h=cv2.boundingRect(cnt)
 img=cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),2)
 cv2.imshow('handwin',img)
+
 if cv2.waitKey(0)==ord('q'):
     cv2.destroyAllWindows()
 
